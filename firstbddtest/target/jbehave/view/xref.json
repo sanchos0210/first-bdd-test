@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1523904885494,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "/",
+      "narrative": "",
+      "name": "LoginToGoogleMailbox.story",
+      "path": "ua/com/google/stories/consult_dictionary/LoginToGoogleMailbox.story",
+      "html": "ua.com.google.stories.consult_dictionary.LoginToGoogleMailbox.html",
+      "meta": "",
+      "scenarios": "Scenario:Login to google mailbox\u000aGiven the user is on the Google home page\u000aWhen the user has opened mail login page\u000aWhen the user has typed email 'tester.cashflow@gmail.com'\u000aWhen the user has confirmed email\u000aWhen the user has typed password 'testercf'\u000aWhen the user click sign in button\u000aThen the user should see own email in mailbox 'tester.cashflow@gmail.com'\u000a\u000a\u000a",
+      "passed": true,
+      "pending": false,
+      "started": 1523904859698,
+      "duration": 21496
+    }
+  ],
+  "stepMatches": []
+}}

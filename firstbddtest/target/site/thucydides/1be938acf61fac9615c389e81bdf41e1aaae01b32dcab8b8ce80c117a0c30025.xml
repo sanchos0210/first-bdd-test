@@ -1,0 +1,60 @@
+<acceptance-test-run title="Login to gmail service" name="Login to gmail service" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17791" timestamp="2018-04-16T21:24:41.641+03:00">
+  <user-story id="LookupADefinition" name="Lookup a definition" path="ua/com/google/stories/consult_dictionary/LookupADefinition.story"/>
+  <tags>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+    <tag name="Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Google home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="05e1c8345c03925be60757a0936c90f7_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7336">
+      <screenshots>
+        <screenshot image="05e1c8345c03925be60757a0936c90f7_NONE.png"/>
+      </screenshots>
+      <description>Is the google home page</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="2004">
+    <screenshots>
+      <screenshot image="e3cb10f1cd2066ac1af0fa1cdd144eef_NONE.png"/>
+    </screenshots>
+    <description>When the user has opened mail login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="589">
+    <screenshots>
+      <screenshot image="f51f704751e099efd75e03b7e59177c2_NONE.png"/>
+    </screenshots>
+    <description>When the user has typed email</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="740">
+    <screenshots>
+      <screenshot image="5b745b837aba18ec4ae105c34897b117_NONE.png"/>
+    </screenshots>
+    <description>When the user has confirmed email</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="711">
+    <screenshots>
+      <screenshot image="83a5105c98a8ef37f5f5a808263a4557_NONE.png"/>
+      <screenshot image="f7df1057a8effa40e83fce22cca3673d_NONE.png"/>
+    </screenshots>
+    <description>When the user has typed password</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1043">
+    <screenshots>
+      <screenshot image="8dde380178bf2a84037952611c9c6a29_NONE.png"/>
+    </screenshots>
+    <description>When the user click sign in button</description>
+  </test-step>
+  <test-group name="Then the user should see own  email in mailbox" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8dde380178bf2a84037952611c9c6a29_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3936">
+      <screenshots>
+        <screenshot image="c9ef633c5303b217b65e806d1b9270ef_NONE.png"/>
+      </screenshots>
+      <description>Should see own email in mailbox</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,11 @@
+<story path="ua/com/google/stories/consult_dictionary/LoginToGoogleMailbox.story" title="/">
+<scenario keyword="Scenario:" title="Login to google mailbox">
+<step outcome="successful">Given the user is on the Google home page</step>
+<step outcome="successful">When the user has opened mail login page</step>
+<step outcome="successful">When the user has typed email &apos;tester.cashflow@gmail.com&apos;</step>
+<step outcome="successful">When the user has confirmed email</step>
+<step outcome="successful">When the user has typed password &apos;testercf&apos;</step>
+<step outcome="successful">When the user click sign in button</step>
+<step outcome="successful">Then the user should see own email in mailbox &apos;tester.cashflow@gmail.com&apos;</step>
+</scenario>
+</story>

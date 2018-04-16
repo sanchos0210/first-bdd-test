@@ -1,0 +1,5 @@
+package ua.com.google.jbehave;
+
+import net.thucydides.jbehave.ThucydidesJUnitStories;
+
+public class AcceptanceTestSuite extends ThucydidesJUnitStories {}

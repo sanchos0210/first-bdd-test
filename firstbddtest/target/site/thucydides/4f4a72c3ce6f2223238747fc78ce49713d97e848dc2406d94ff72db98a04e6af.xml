@@ -1,0 +1,89 @@
+<acceptance-test-run title="Login to google mailbox" name="Login to google mailbox" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20950" timestamp="2018-04-16T21:54:19.862+03:00">
+  <user-story id="LoginToGoogleMailbox" name="Login to google mailbox" path="ua/com/google/stories/consult_dictionary/LoginToGoogleMailbox.story"/>
+  <tags>
+    <tag name="Consult dictionary/Login to google mailbox" type="story"/>
+    <tag name="Login to google mailbox" type="story"/>
+  </tags>
+  <test-group name="Given the user is on the Google home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b17432079f99a35876347e87db53936c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7708">
+      <screenshots>
+        <screenshot image="b17432079f99a35876347e87db53936c_NONE.png"/>
+      </screenshots>
+      <description>Is the google home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user has opened mail login page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b17432079f99a35876347e87db53936c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2182">
+      <screenshots>
+        <screenshot image="e3cb10f1cd2066ac1af0fa1cdd144eef_NONE.png"/>
+      </screenshots>
+      <description>Click on mail button</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user has typed email &apos;tester.cashflow@gmail.com&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e3cb10f1cd2066ac1af0fa1cdd144eef_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="554">
+      <screenshots>
+        <screenshot image="e3cb10f1cd2066ac1af0fa1cdd144eef_NONE.png"/>
+        <screenshot image="f51f704751e099efd75e03b7e59177c2_NONE.png"/>
+      </screenshots>
+      <description>Type email: &lt;span class=&apos;step-parameter&apos;&gt;tester.cashflow@gmail.com&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user has confirmed email" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f51f704751e099efd75e03b7e59177c2_NONE.png"/>
+      <screenshot image="060e10e2503e2ecf0edd4441cff9683c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="764">
+      <screenshots>
+        <screenshot image="f51f704751e099efd75e03b7e59177c2_NONE.png"/>
+        <screenshot image="5b745b837aba18ec4ae105c34897b117_NONE.png"/>
+      </screenshots>
+      <description>Click on confirm email button</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user has typed password &apos;testercf&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="060e10e2503e2ecf0edd4441cff9683c_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="477">
+      <screenshots>
+        <screenshot image="f7df1057a8effa40e83fce22cca3673d_NONE.png"/>
+      </screenshots>
+      <description>Type password: &lt;span class=&apos;step-parameter&apos;&gt;testercf&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+  <test-group name="When the user click sign in button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f7df1057a8effa40e83fce22cca3673d_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1293">
+      <screenshots>
+        <screenshot image="f7df1057a8effa40e83fce22cca3673d_NONE.png"/>
+        <screenshot image="8dde380178bf2a84037952611c9c6a29_NONE.png"/>
+      </screenshots>
+      <description>Click on sign in button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then the user should see own email in mailbox &apos;tester.cashflow@gmail.com&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="8dde380178bf2a84037952611c9c6a29_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="3769">
+      <screenshots>
+        <screenshot image="8dde380178bf2a84037952611c9c6a29_NONE.png"/>
+        <screenshot image="c9ef633c5303b217b65e806d1b9270ef_NONE.png"/>
+      </screenshots>
+      <description>Should see own email in mailbox: &lt;span class=&apos;step-parameter&apos;&gt;tester.cashflow@gmail.com&lt;/span&gt;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

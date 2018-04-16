@@ -1,0 +1,32 @@
+<xref>
+  <whenMade>1523904885494</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description>/</description>
+      <narrative></narrative>
+      <name>LoginToGoogleMailbox.story</name>
+      <path>ua/com/google/stories/consult_dictionary/LoginToGoogleMailbox.story</path>
+      <html>ua.com.google.stories.consult_dictionary.LoginToGoogleMailbox.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Login to google mailbox
+Given the user is on the Google home page
+When the user has opened mail login page
+When the user has typed email &apos;tester.cashflow@gmail.com&apos;
+When the user has confirmed email
+When the user has typed password &apos;testercf&apos;
+When the user click sign in button
+Then the user should see own email in mailbox &apos;tester.cashflow@gmail.com&apos;
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1523904859698</started>
+      <duration>21496</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

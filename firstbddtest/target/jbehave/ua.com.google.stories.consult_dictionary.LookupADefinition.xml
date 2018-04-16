@@ -1,0 +1,11 @@
+<story path="ua/com/google/stories/consult_dictionary/LookupADefinition.story" title="/">
+<scenario keyword="Scenario:" title="Login to gmail service">
+<step outcome="successful">Given the user is on the Google home page</step>
+<step outcome="successful">When the user has opened mail login page</step>
+<step outcome="successful">When the user has typed email</step>
+<step outcome="successful">When the user has confirmed email</step>
+<step outcome="successful">When the user has typed password</step>
+<step outcome="successful">When the user click sign in button</step>
+<step outcome="successful">Then the user should see own  email in mailbox</step>
+</scenario>
+</story>
